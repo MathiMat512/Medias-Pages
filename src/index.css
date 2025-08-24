@@ -45,3 +45,57 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  
+  nav {
+    gap: 8px;
+    padding: 8px 0;
+  }
+  
+  .main-content {
+    margin-top: 70px;
+  }
+  
+  .card {
+    padding: 8px;
+  }
+  
+  .caja-titulo h2 {
+    font-size: 1rem;
+  }
+  
+  .caja-precio h1 {
+    font-size: 1.3rem;
+  }
+  
+  .caja-tallas h3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr); /* Mantenemos 2 columnas */
+    gap: 10px;
+  }
+  
+  .card-slider {
+    height: 180px; /* Altura más pequeña para móviles muy pequeños */
+  }
+  
+  /* Ajustes adicionales para pantallas muy pequeñas */
+  .caja-titulo h2 {
+    font-size: 0.9rem;
+  }
+  
+  .caja-precio h1 {
+    font-size: 1.1rem;
+  }
+  
+  .prev, .next {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+}

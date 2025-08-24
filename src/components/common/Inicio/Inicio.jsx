@@ -5,7 +5,7 @@ export const Inicio = () => {
     <main>
       <h1>Vite + React</h1>
 
-      <section class="card" role="region" aria-labelledby="titulo-card">
+      <section class="card-inicio" role="region" aria-labelledby="titulo-card">
         <p class="eyebrow">#ClásicosComoTú</p>
         <h1 class="title" id="titulo-card">
           Taloneras
@@ -16,7 +16,7 @@ export const Inicio = () => {
         </a>
       </section>
 
-      <section class="card" role="region" aria-labelledby="titulo-card">
+      <section class="card-inicio" role="region" aria-labelledby="titulo-card">
         <p class="eyebrow">#ClásicosComoTú</p>
         <h1 class="title" id="titulo-card">
           Tobilleras
@@ -27,7 +27,7 @@ export const Inicio = () => {
         </a>
       </section>
 
-      <section class="card" role="region" aria-labelledby="titulo-card">
+      <section class="card-inicio" role="region" aria-labelledby="titulo-card">
         <p class="eyebrow">#ClásicosComoTú</p>
         <h1 class="title" id="titulo-card">
           Futsaleras
@@ -38,7 +38,7 @@ export const Inicio = () => {
         </a>
       </section>
 
-      <section class="card" role="region" aria-labelledby="titulo-card">
+      <section class="card-inicio" role="region" aria-labelledby="titulo-card">
         <p class="eyebrow">#ClásicosComoTú</p>
         <h1 class="title" id="titulo-card">
           Talla niño

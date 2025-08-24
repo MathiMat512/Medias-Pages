@@ -7,7 +7,7 @@ main {
   flex-direction: column;
 }
 
-.card {
+.card-inicio {
   width: min(50vw, 980px); /* 50% pantalla en desktop */
   max-width: 980px;
   background: #fff;
