@@ -14,12 +14,12 @@ function App() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/taloneras" element={<Talon />} />
-          <Route path="/tobilleras" element={<Tobillera />} />
-          <Route path="/futsaleras" element={<Futsal />} />
-          <Route path="/ninos" element={<Nino />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/Medias-Pages" element={<Inicio />} />
+          <Route path="/Medias-Pages/taloneras" element={<Talon />} />
+          <Route path="/Medias-Pages/tobilleras" element={<Tobillera />} />
+          <Route path="/Medias-Pages/futsaleras" element={<Futsal />} />
+          <Route path="/Medias-Pages/ninos" element={<Nino />} />
+          <Route path="/Medias-Pages/contacto" element={<Contacto />} />
         </Route>
       </Routes>
     </Router>

@@ -6,12 +6,12 @@ export const Header = ({}) => {
     return (
         <header>
             <nav>
-                <a href="/">Inicio</a>
-                <a href="taloneras">Taloneras</a>
-                <a href="tobilleras">Tobilleras</a>
-                <a href="futsaleras">Futsaleras</a>
-                <a href="ninos">Talla niño</a>
-                <a href="contacto">Contacto</a>
+                <a href="/Medias-Pages">Inicio</a>
+                <a href="/Medias-Pages/taloneras">Taloneras</a>
+                <a href="/Medias-Pages/tobilleras">Tobilleras</a>
+                <a href="/Medias-Pages/futsaleras">Futsaleras</a>
+                <a href="/Medias-Pages/ninos">Talla niño</a>
+                <a href="/Medias-Pages/contacto">Contacto</a>
             </nav>
         </header>
     )
