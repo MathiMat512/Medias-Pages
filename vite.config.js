@@ -4,5 +4,12 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://mathimat512.github.io/Medias-Pages"
+  base: "/Medias-Pages/",
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+      }
+    }
+  }
 })
