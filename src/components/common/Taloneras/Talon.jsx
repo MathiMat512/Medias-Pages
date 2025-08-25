@@ -46,8 +46,7 @@ const talonerasAdidas = [
 ];
 
 const talonerasReebok = [
-  { ...baseReebok, images: [talreebok1] },
-  { ...baseReebok, images: [talreebok2] },
+  { ...baseReebok, images: [talreebok1, talreebok2] },
 ];
 
   return (
