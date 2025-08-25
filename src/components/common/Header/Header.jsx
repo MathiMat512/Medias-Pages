@@ -1,19 +1,17 @@
-import React from "react"
-import './styles.css'
+import { NavLink } from "react-router-dom";
+import './styles.css';
 
-export const Header = ({}) => {
-
-    return (
-        <header>
-            <nav>
-                <a href="/Medias-Pages">Inicio</a>
-                <a href="/Medias-Pages/taloneras">Taloneras</a>
-                <a href="/Medias-Pages/tobilleras">Tobilleras</a>
-                <a href="/Medias-Pages/futsaleras">Futsaleras</a>
-                <a href="/Medias-Pages/ninos">Talla niño</a>
-                <a href="/Medias-Pages/contacto">Contacto</a>
-            </nav>
-        </header>
-    )
-
-}
+export const Header = () => {
+  return (
+    <header>
+      <nav>
+        <NavLink to="/">Inicio</NavLink>
+        <NavLink to="taloneras">Taloneras</NavLink>
+        <NavLink to="tobilleras">Tobilleras</NavLink>
+        <NavLink to="futsaleras">Futsaleras</NavLink>
+        <NavLink to="ninos">Talla niño</NavLink>
+        <NavLink to="contacto">Contacto</NavLink>
+      </nav>
+    </header>
+  );
+};

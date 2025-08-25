@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/common/Layout/Layout'
 import { Inicio } from './components/common/Inicio/Inicio'
 import { Talon } from './components/common/Taloneras/Talon'
@@ -8,21 +8,25 @@ import { Nino } from './components/common/Nino/Nino'
 import { Contacto } from './components/common/Contacto/Contacto'
 import './App.css'
 
-function App() {
+// Vite expone el "base" como BASE_URL (ej: "/Medias-Pages/")
+const basename = import.meta.env.BASE_URL;
 
+function App() {
   return (
-    <Router>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/Medias-Pages" element={<Inicio />} />
-          <Route path="/Medias-Pages/taloneras" element={<Talon />} />
-          <Route path="/Medias-Pages/tobilleras" element={<Tobillera />} />
-          <Route path="/Medias-Pages/futsaleras" element={<Futsal />} />
-          <Route path="/Medias-Pages/ninos" element={<Nino />} />
-          <Route path="/Medias-Pages/contacto" element={<Contacto />} />
+          <Route index element={<Inicio />} />
+          <Route path="taloneras" element={<Talon />} />
+          <Route path="tobilleras" element={<Tobillera />} />
+          <Route path="futsaleras" element={<Futsal />} />
+          <Route path="ninos" element={<Nino />} />
+          <Route path="contacto" element={<Contacto />} />
+          {/* opcional: 404 interno */}
+          {/* <Route path="*" element={<Inicio />} /> */}
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
 
