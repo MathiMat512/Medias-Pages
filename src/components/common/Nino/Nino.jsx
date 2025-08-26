@@ -36,8 +36,8 @@ export const Nino=()=>{
         <>
         <main className="main-content">
           <div className="encabezado">
-            <h1>Categoria: Medias para niños</h1>
-            <h2>Subcategoria: Personajes (El precio es por docena)</h2>
+            <h1>Categoria: Tallas para niños</h1>
+            <h2>Subcategoria: Medias para niño (El precio es por docena)</h2>
           </div>
     
           <div className="gallery-container">
@@ -48,8 +48,7 @@ export const Nino=()=>{
 
         <main className="main-content">
           <div className="encabezado">
-            <h1>Categoria: Medias para niñas</h1>
-            <h2>Subcategoria: Personajes (El precio es por docena)</h2>
+            <h2>Subcategoria: Medias para niñas (El precio es por docena)</h2>
           </div>
     
           <div className="gallery-container">
