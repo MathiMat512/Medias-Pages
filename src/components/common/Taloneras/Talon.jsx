@@ -15,19 +15,19 @@ import talreebok2 from '../../../assets/reebok/talreebok2.png';
 export const Talon = () => {
   const baseNike = {
   title: 'Nike',
-  price: 24.00,
+  price: 0.00,
   sizes: 'Dama | Caballero',
 };
 
 const baseAdidas = {
   title: 'Adidas',
-  price: 24.00,
+  price: 0.00,
   sizes: 'Dama | Caballero',
 };
 
 const baseReebok = {
   title: 'Reebok',
-  price: 24.00,
+  price: 0.00,
   sizes: 'Dama | Caballero',
 };
 
